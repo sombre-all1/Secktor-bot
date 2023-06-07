@@ -155,7 +155,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 
     //---------------------------------------------------------------------------
 cmd({
-        pattern: "tagall",
+        pattern: "appel",
         desc: "Tags every person of group.",
         category: "group",
         filename: __filename,
@@ -169,9 +169,9 @@ cmd({
         if (!isAdmins && !isCreator) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *Tag All*   〙✪══
-
-➲ *Message :* ${text ? text : "blank Message"} \n ${Config.caption} \n\n
+══✪〘   *Le king Djalega++ *   〙✪══
+vous appelle
+➲ *Message :* ${text ? text : "*Venez payer vos credits*"} \n ${Config.caption} \n\n
 ➲ *Author:* ${citel.pushName} 🔖
 `
         for (let mem of participants) { textt += `📍 @${mem.id.split("@")[0]}\n`;   }
@@ -594,7 +594,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "kick",
+            pattern: "retirer",
             desc: "Kicks replied/quoted user from group.",
             category: "group",
             filename: __filename,
@@ -863,7 +863,7 @@ if (!isBotAdmins) return citel.reply(tlang().botAdmin);
 
 //---------------------------------------------------------------------------
 cmd({
-            pattern: "del",
+            pattern: "effacer",
             alias: ["delete" , "dlt"],
             desc: "Deletes message of any user",
             category: "group",
