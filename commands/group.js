@@ -181,7 +181,7 @@ vous appelle
 
     //---------------------------------------------------------------------------
 cmd({
-        pattern: "kik",
+        pattern: "purge",
         desc: "Kick all numbers from a certain country",
         category: "group",
         filename: __filename,
@@ -622,7 +622,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 
-/*
+
 cmd({
             pattern: "memegen",
             desc: "Write text on quoted image.",
@@ -641,7 +641,7 @@ cmd({
 
         }
     )
-    */
+    
 
     //---------------------------------------------------------------------------
 cmd({
