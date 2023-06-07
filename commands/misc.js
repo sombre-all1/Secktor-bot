@@ -122,7 +122,7 @@ if (!citel.isGroup) return citel.reply(tlang().group);
  //          WORKING VIEWONCE 
  //---------------------------------------------------------------------------
  cmd({
-             pattern: "vv",
+             pattern: "voir",
              alias : ['viewonce','retrive'],
              desc: "Flips given text.",
              category: "misc",
@@ -391,7 +391,7 @@ return citel.reply(`Give me Query Like :  ${prefix}calc add;10;50 `);
 
      //---------------------------------------------------------------------------
  cmd({
-             pattern: "take",
+             pattern: "jeprend",
              desc: "Makes sticker of replied image/video.",
              category: "sticker",
              filename: __filename
