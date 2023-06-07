@@ -89,7 +89,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
     cmd({
-        pattern: "invite",
+        pattern: "lien",
         desc: "get group link.",
         category: "group",
         filename: __filename,
