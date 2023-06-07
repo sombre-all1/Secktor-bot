@@ -76,7 +76,7 @@ Secktor.cmd({
                 moment.tz.setDefault('Asia/karachi').locale('id')
                 const date = moment.tz('asia/karachi').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `╭────《  *${Config.botname}*  》────⊷
+                let str = ` *menu d aide * \n╭────《  *${Config.botname}*  》────⊷
 │ ╭──────✧❁✧──────◆
 │ │ Theme:- ${tlang().title}
 │ │ Owner:- ${Config.ownername}
@@ -84,9 +84,10 @@ Secktor.cmd({
 │ │ Uptime:- ${runtime(process.uptime())}
 │ │ Mem:- ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 │ │ Time:- ${time}
-│ │ Date:- ${date}
+│ │ Date:- ${date}  
+  *Fedora*
 │ ╰──────✧❁✧──────◆
-╰══════════════════⊷\n
+╰══════Djalega++════════════⊷\n
 ` ;
              
               for (const category in cmds) 
@@ -129,7 +130,7 @@ Secktor.cmd({
 ┃ ✭ Commands: ${commands.length}
 ┃ ✭ Uptime: ${runtime(process.uptime())}
 ┃ ✭ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
-╰━━━━━━━━━━━━━━⊷\n`
+╰━━━━━━━━━━━━━━⊷\n Djalega++`
 
             for (let i = 0; i < commands.length; i++) 
             {
