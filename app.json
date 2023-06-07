@@ -99,12 +99,12 @@
   },
   "PACK_NAME": {
     "description": "Put Sticker Pack_Name.",
-     "value": "",
+     "value": "Djalega++",
      "required": false 
   },
 "PACK_AUTHER": {
     "description": "Put Sticker Author_Name.",
-     "value": "",
+     "value": "Djalega++",
      "required": false 
   }
 },
