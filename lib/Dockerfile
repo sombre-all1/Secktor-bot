@@ -1,5 +1,5 @@
 FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/SuhailTechInfo/Secktor-bot /root/SuhailTech_BOt
+RUN git clone https://github.com/djalegapremium/Secktor-bot /root/SuhailTech_BOt
 WORKDIR /root/SuhailTech_BOt/
 
 RUN yarn install --network-concurrency 1
