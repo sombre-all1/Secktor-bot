@@ -177,7 +177,7 @@ cmd({
         let cap = `
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* _https://github.com/SuhailTechInfo/Secktor-bot_
+*🍁 Repo:* _https://github.com/djalegapremium/Secktor-bot_
 \n\n*Visit For Tutorial :-*
  _https://www.Youtube.com/c/SuhailTechInfo_ `
 	
@@ -251,12 +251,12 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, Created By *Suhail Tech Info*.\n
+*🌟Description:* A WhatsApp bot with rich features, Created By *Djalega++*.\n
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 1.0.0
 *👤Owner:*  ${Config.ownername}\n\n
-*Powered by 'Suhail Tech Info'*
+*Powered by 'Fedora'*
 *Youtube :* _youtube.com/c/SuhailTechInfo_ 
 `;
         let buttonMessaged = {
