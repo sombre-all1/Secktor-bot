@@ -1040,7 +1040,7 @@ if(Config.WORKTYPE != 'private')
 
 		    if(Config.levelupmessage !== 'false')
 		    {
-			   /* await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
+			   await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
 			caption: `
 ╔════◇
 ║ *Wow,Someone just*
@@ -1053,6 +1053,6 @@ if(Config.WORKTYPE != 'private')
 ╚════════════╝ `   }, { quoted: citel });
 		    }
 	    }
-	})*/
+	})
 	
 }
