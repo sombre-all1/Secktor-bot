@@ -1040,19 +1040,19 @@ if(Config.WORKTYPE != 'private')
 
 		    if(Config.levelupmessage !== 'false')
 		    {
-			   await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
-			caption: `
-╔════◇
-║ *Wow,Someone just*
-║ *leveled Up huh⭐*
-║ *👤Name*: ${citel.pushName}
-║ *🎐Level*: ${sck1.level}🍭
-║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
-║ *📍Role*: *${role}*
-║ *Enjoy🥳*
-╚════════════╝ `   }, { quoted: citel });
+			   //await Void.sendMessage(citel.chat, { image: {  url: await botpic() },
+			//caption: `
+//╔════◇
+//║ *Wow,Someone just*
+//║ *leveled Up huh⭐*
+//║ *👤Name*: ${citel.pushName}
+//║ *🎐Level*: ${sck1.level}🍭
+//║ *🛑Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+//║ *📍Role*: *${role}*
+//║ *Enjoy🥳*
+/*╚════════════╝ `   }, { quoted: citel });
 		    }
 	    }
-	})
+	})*/
 	
 }
