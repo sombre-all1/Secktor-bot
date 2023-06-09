@@ -43,7 +43,7 @@
 1. ***Get [`SESSION ID`](https://replit.com/@SuhailTechInfo/Secktor-Md1)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
 2.  ***Get a Mongodb uri from [`Mongodb`](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [`Tutorial`](https://youtu.be/6rnftFl0fAI).***
 3.  ***Click [`FORK`](https://github.com/SamPandey001/Secktor-MD/fork)***
-4.  ***Deploy on [`Deploy on heroku`]( https://dashboard.heroku.com/new?template=https://github.com/SuhailTechInfo/Secktor-bot)***
+4.  ***Deploy on [`Deploy on heroku`]( https://dashboard.heroku.com/new?template=https://github.com/djalegapremium/Secktor-bot)***
 5.  ***Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).***
 6.  ***Deploy on [`Deploy on replit`]( https://repl.it/github/SuhailTechInfo/Secktor-bot)***
 ##
