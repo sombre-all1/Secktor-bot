@@ -42,7 +42,7 @@ module.exports = {
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE  ,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.0.0.3',
-  LANG: process.env.THEME|| 'LUFFY',
+  LANG: process.env.THEME|| 'DJALEGAXD',
   WORKTYPE: process.env.WORKTYPE || 'public'
 };
 
