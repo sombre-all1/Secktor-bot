@@ -42,20 +42,16 @@ Secktor.cmd({
 //---------------------
 
 Secktor.cmd({
-   pattern :"createur",
-   desc : "affiche le nom du createur",
+   pattern:"createur",
+   desc: "affiche le nom du createur",
    category:"general",
-   filename:__filename,
- 
-
+   filename:__filename
 },
 async(void,citel)=>{
 
-let msg ='mon créateur s appelle ';
+var msg ='mon créateur s appelle ';
  return await citel.reply(msg);
-}
-
-);
+});
 
 
 //----------
