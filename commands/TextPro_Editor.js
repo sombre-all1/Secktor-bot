@@ -21,6 +21,19 @@ cmd({ pattern: "glow", category: "logo", desc: "Some text to image feature with 
         Void.sendMessage(citel.chat, { image: { url: anu }, caption: `Made by ${tlang().title},For my ${tlang().greet}` }, { quoted: citel });
     })
 //-----------------------------------------------------------------------------------
+//*****by Djalegs++***
+
+cmd({ pattern: "d_nar", category: "logo", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
+        if (!text) return citel.reply('*hé gawa là voici comment on fait  : .d_nar Djalega++*');
+        let anu = await maker.textpro('https://textpro.me/create-naruto-logo-style-text-effect-online-1125.html', text);
+        Void.sendMessage(citel.chat, { image: { url: anu }, caption: `Made by ${tlang().title},For my ${tlang().greet}` }, { quoted: citel });
+    })
+
+
+
+
+
+//---------------------------
 cmd({ pattern: "gitch1", category: "logo", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
         if (!text) return citel.reply('*_Example : .gitch1 Suhail Tech_*');
         let anu = await maker.textpro('https://textpro.me/create-impressive-glitch-text-effects-online-1027.html', text);
