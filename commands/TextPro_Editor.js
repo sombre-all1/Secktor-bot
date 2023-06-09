@@ -34,6 +34,28 @@ cmd({ pattern: "d_nar", category: "logo", desc: "Some text to image feature with
 
 
 //---------------------------
+   //***by Djalega++****
+    
+cmd({
+            pattern: "d_cr7",
+            category: "logo",
+            desc: "Some text to image feature with various styles."
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply('_Exemple : .d_cr7 Djalega++;11');  
+            let text1 = text ? text.split(';')[0] : '';
+            let text2 = text ? text.split(';')[1] : '';
+            if(!text2 || !text1) return await citel.reply("*Uhh Please sois pas Gaou. Exemple: .d_cr7 ton nom;ton dossa*");
+            let anu = await maker.ephoto3('https://en.ephoto360.com/create-juventus-shirt-effect-536.html', [text1, text2] );
+            Void.sendMessage(citel.chat, { image: {url: anu },caption: `Made by ${tlang().title},For my ${tlang().greet}`}, { quoted: citel });
+        }
+    )
+
+
+
+
+
+//--------------
 cmd({ pattern: "gitch1", category: "logo", desc: "Some text to image feature with various styles." }, async(Void, citel, text) => {
         if (!text) return citel.reply('*_Example : .gitch1 Suhail Tech_*');
         let anu = await maker.textpro('https://textpro.me/create-impressive-glitch-text-effects-online-1027.html', text);
