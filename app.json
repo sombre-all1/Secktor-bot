@@ -32,7 +32,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "true"
+     "value": "false"
     },
 "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
@@ -65,7 +65,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "923184474176"
+       "value": "2250759763447"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Md "
@@ -86,7 +86,7 @@
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "LUFFY"
+     "value": "DJALEGAXD"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
