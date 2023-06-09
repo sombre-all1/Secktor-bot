@@ -39,6 +39,28 @@ Secktor.cmd({
 
 
 //------------------------------------------------------------------------------------
+//---------------------
+
+Secktor.cmd({
+   pattern :"creteur",
+   desc : "affiche le nom du createur",
+   category:"general",
+   filename:__filename,
+ 
+
+},
+async(void,citel)=>{
+
+let msg :"mon créateur s appelle "+
+" *King Djalega++*";
+ citel.reply(msg);
+}
+
+);
+
+
+//----------
+
 Secktor.cmd({
             pattern: "help",
             alias: ["menu"],
