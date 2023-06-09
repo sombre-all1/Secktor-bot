@@ -53,7 +53,7 @@ async(void,citel)=>{
 
 let msg :"mon créateur s appelle "+
 " *King Djalega++*";
- citel.reply(msg);
+ return await citel.reply(msg);
 }
 
 );
