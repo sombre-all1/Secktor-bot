@@ -49,7 +49,8 @@ Secktor.cmd({
 },
 async(Void,citel)=>{
 
-var msg ='mon créateur s appelle ';
+var msg ='*mon créateur s appelle* ';
+ msg +=' *King Djalega++* ';
  return await citel.reply(msg);
 });
 
