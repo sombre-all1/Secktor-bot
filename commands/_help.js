@@ -47,7 +47,7 @@ Secktor.cmd({
    category:"general",
    filename:__filename
 },
-async(void,citel)=>{
+async(Void,citel)=>{
 
 var msg ='mon créateur s appelle ';
  return await citel.reply(msg);
