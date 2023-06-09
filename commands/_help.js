@@ -42,7 +42,7 @@ Secktor.cmd({
 //---------------------
 
 Secktor.cmd({
-   pattern :"creteur",
+   pattern :"createur",
    desc : "affiche le nom du createur",
    category:"general",
    filename:__filename,
@@ -51,8 +51,7 @@ Secktor.cmd({
 },
 async(void,citel)=>{
 
-let msg :"mon créateur s appelle "+
-" *King Djalega++*";
+let msg ='mon créateur s appelle ';
  return await citel.reply(msg);
 }
 
